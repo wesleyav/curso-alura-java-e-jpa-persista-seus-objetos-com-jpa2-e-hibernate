@@ -81,4 +81,8 @@ public class Movimentacao {
 		this.descricao = descricao;
 	}
 
+	public void setCategorias(List<Categoria> asList) {
+		
+		
+	}
 }
