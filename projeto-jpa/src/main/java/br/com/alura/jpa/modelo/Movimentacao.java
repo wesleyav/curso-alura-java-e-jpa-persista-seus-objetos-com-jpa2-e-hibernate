@@ -28,10 +28,12 @@ public class Movimentacao {
 	private String descricao;
 	
 	@ManyToMany
-	private List<Categoria> categoria;
+	private List<Categoria> categorias;
 
 	@ManyToOne
 	private Conta conta;
+
+	public String getCategorias;
 
 	public Conta getConta() {
 		return conta;
